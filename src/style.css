@@ -1,0 +1,11 @@
+/* 演示页全局样式 */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #eef0f3;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}

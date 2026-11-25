@@ -1,0 +1,19 @@
+# 依赖
+node_modules
+
+# 构建产物
+dist
+dist-demo
+
+# 日志与本地文件
+*.local
+*.log
+
+# 编辑器与系统文件
+.idea
+.vscode
+.DS_Store
+
+# IDE 本地产物
+.trae-html-share-packages
+.screenshots
