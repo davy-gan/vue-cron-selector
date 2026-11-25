@@ -16,7 +16,7 @@ Vue3 Cron 表达式可视化选择组件（Quartz 格式），交互参考 xxl-j
 ## 安装使用
 
 ```bash
-npm install vue-cron-picker
+npm install vue-cron-selector
 ```
 
 ### 方式一：弹出面板 CronPicker（输入框 + 编辑按钮）
@@ -24,8 +24,8 @@ npm install vue-cron-picker
 ```vue
 <script setup>
 import { ref } from 'vue'
-import { CronPicker } from 'vue-cron-picker'
-import 'vue-cron-picker/style.css'
+import { CronPicker } from 'vue-cron-selector'
+import 'vue-cron-selector/style.css'
 
 const cron = ref('0 0 0/1 * * ?')
 </script>
@@ -39,8 +39,8 @@ const cron = ref('0 0 0/1 * * ?')
 
 ```vue
 <script setup>
-import { CronPanel } from 'vue-cron-picker'
-import 'vue-cron-picker/style.css'
+import { CronPanel } from 'vue-cron-selector'
+import 'vue-cron-selector/style.css'
 </script>
 
 <template>

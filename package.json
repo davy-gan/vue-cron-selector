@@ -1,19 +1,19 @@
 {
-  "name": "vue-cron-picker",
+  "name": "vue-cron-selector",
   "version": "0.1.0",
   "description": "Vue3 Cron 表达式可视化选择组件（Quartz 格式，参考 xxl-job 交互），零第三方依赖",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-cron-picker.umd.cjs",
-  "module": "./dist/vue-cron-picker.js",
+  "main": "./dist/vue-cron-selector.umd.cjs",
+  "module": "./dist/vue-cron-selector.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-cron-picker.js",
-      "require": "./dist/vue-cron-picker.umd.cjs"
+      "import": "./dist/vue-cron-selector.js",
+      "require": "./dist/vue-cron-selector.umd.cjs"
     },
-    "./style.css": "./dist/vue-cron-picker.css"
+    "./style.css": "./dist/vue-cron-selector.css"
   },
   "keywords": [
     "vue3",

@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: 'src/lib/index.js',
       name: 'VueCronPicker',
-      cssFileName: 'vue-cron-picker'
+      cssFileName: 'vue-cron-selector'
     },
     rollupOptions: {
       external: ['vue'],
