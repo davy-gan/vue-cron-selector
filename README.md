@@ -11,12 +11,18 @@ Vue3 Cron 表达式可视化选择组件（Quartz 格式），交互参考 xxl-j
 ## 在线演示
 
 推送到 GitHub 后由 [deploy.yml](.github/workflows/deploy.yml) 自动部署演示页到 GitHub Pages：
-`https://<你的用户名>.github.io/vue-cron-picker/`
+`https://<你的用户名>.github.io/vue-cron-selector/`
 
 ## 安装使用
 
 ```bash
 npm install vue-cron-selector
+```
+
+未发布 npm 时，也可以直接从 GitHub 安装（npm 会自动安装构建依赖并执行 `prepare` 构建）：
+
+```bash
+npm install github:davy-gan/vue-cron-selector
 ```
 
 ### 方式一：弹出面板 CronPicker（输入框 + 编辑按钮）
@@ -94,7 +100,7 @@ npm run build:demo   # 构建演示页到 dist-demo/（用于 GitHub Pages）
 git init
 git add .
 git commit -m "feat: vue cron picker"
-git remote add origin https://github.com/<你的用户名>/vue-cron-picker.git
+git remote add origin https://github.com/<你的用户名>/vue-cron-selector.git
 git push -u origin main
 ```
 

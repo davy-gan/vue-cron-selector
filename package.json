@@ -20,6 +20,7 @@
     "cron",
     "cron-picker",
     "cron-editor",
+    "cron-selector",
     "quartz",
     "xxl-job"
   ],
@@ -31,7 +32,8 @@
     "dev": "vite",
     "build:lib": "vite build --config vite.lib.config.js",
     "build:demo": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "npm run build:lib"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
