@@ -1,4 +1,4 @@
-# Vue Cron Picker
+# Vue Cron Selector
 
 Vue3 Cron 表达式可视化选择组件（Quartz 格式），交互参考 xxl-job 的 Cron 生成器，**零第三方依赖**。
 
